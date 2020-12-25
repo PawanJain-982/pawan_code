@@ -18,7 +18,7 @@ System.out.println("enter word which you want to replace");
 wordsToReplace[i] = sc.next();
 System.out.println("enter word with you want to replace");
 wordsToReplaceWith[i] = sc.next();}
-long count=replaceWords("D:\\StudentFile.txt", wordsToReplace, wordsToReplaceWith);
+long count=replaceWords("C:\\Codes.txt", wordsToReplace, wordsToReplaceWith);
 System.out.println(count);
 }
 public static long replaceWords(String filePath, String[] wordsToReplace, String[] wordsToReplaceWith)
